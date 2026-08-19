@@ -87,15 +87,15 @@ The modern Java HTTP client introduced in Java 11. It handles sending JSON data 
 ## 💻 Command Line Breakdown
 
 | Command | Word | Meaning |
-| ------- | ---- | ------- |
-| | **`git clone <url>`** | **`git`** | The version control system used to track changes in code. |
+| :--- | :--- | :--- |
+| `git clone <url>` | **`git`** | The version control system used to track changes in code. |
 | | **`clone`** | Tells Git to download an exact, working copy of a remote repository from GitHub onto your local machine. |
-| | **`cd Calculator-App`** | **`cd`** | "Change Directory". This command navigates your terminal's active focus inside the newly downloaded project folder. |
-| | **`pip install fastapi uvicorn...`** | **`pip`** | "Package Installer for Python". The tool used to download libraries from the internet. |
+| `cd Calculator-App` | **`cd`** | "Change Directory". This command navigates your terminal's active focus inside the newly downloaded project folder. |
+| `pip install fastapi uvicorn...` | **`pip`** | "Package Installer for Python". The tool used to download libraries from the internet. |
 | | **`install`** | The command telling `pip` to download and set up the following packages. |
-| | **`python -m uvicorn quantum_nlp_api:app --reload`** | **`python -m`** | Runs a specific Python module (in this case, Uvicorn) directly from the command line. |
+| `python -m uvicorn quantum_nlp_api:app --reload` | **`python -m`** | Runs a specific Python module (in this case, Uvicorn) directly from the command line. |
 | | **`uvicorn`** | The lightning-fast web server that actually hosts the FastAPI application. |
 | | **`quantum_nlp_api:app`** | Tells Uvicorn where to look. It means: "Open the `quantum_nlp_api.py` file, and run the variable named `app`." |
 | | **`--reload`** | A developer tool that watches your files and automatically restarts the server the second you hit `Ctrl+S`. |
-| | **`javac Calculator.java`** | **`javac`** | The Java Compiler. It translates human-readable `.java` code into machine-readable `.class` byte-code. |
-| | **`java Calculator`** | **`java`** | The Java Virtual Machine (JVM). It executes the compiled `.class` file to run the program. |
+| `javac Calculator.java` | **`javac`** | The Java Compiler. It translates human-readable `.java` code into machine-readable `.class` byte-code. |
+| `java Calculator` | **`java`** | The Java Virtual Machine (JVM). It executes the compiled `.class` file to run the program. |
