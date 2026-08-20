@@ -18,7 +18,7 @@ public class Calculator {
         HttpClient client = HttpClient.newHttpClient();
 
         while(true) {
-            System.out.print("\nEnter natural language math expression or type exit: ");
+            System.out.print("\nEnter natural language math expression or type exit or history: ");
             String userInput = scnr.nextLine();
 
             if(userInput.equalsIgnoreCase("exit")) {
